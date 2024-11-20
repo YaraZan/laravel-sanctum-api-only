@@ -56,10 +56,10 @@ trait HasApiTokensWithLocation
 
         $token = $this->tokens()->create([
             'name' => $name,
+            'location' => $location,
             'token' => hash('sha256', $plainTextToken),
             'abilities' => $abilities,
             'expires_at' => $expiresAt,
-            'location' => $location,
         ]);
 
         return new NewAccessToken($token, $token->getKey().'|'.$plainTextToken);
