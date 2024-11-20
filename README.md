@@ -1,4 +1,6 @@
+![image](https://github.com/user-attachments/assets/db98d9d8-324c-48ef-ad83-54a059081e05)
 
+<h1 align="center"> Laravel Sanctum API Only </h1>
 
 <p align="center">
 <a href="https://github.com/YaraZan/laravel-sanctum-api-only/actions"><img src="https://github.com/YaraZan/laravel-sanctum-api-only/actions/workflows/laravel.yml/badge.svg" alt="Build Status"></a>
@@ -7,8 +9,6 @@
 <a href="https://packagist.org/packages/yarazan/laravel-sanctum-api-only"><img src="https://img.shields.io/packagist/v/yarazan/laravel-sanctum-api-only" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/yarazan/laravel-sanctum-api-only"><img src="https://img.shields.io/packagist/l/yarazan/laravel-sanctum-api-only" alt="License"></a>
 </p>
-
-# Laravel Sanctum API Only
 
 ### Overview
 
