@@ -26,9 +26,7 @@ class UserController extends Controller
         $user->password = Hash::make($validated['password']);
         $user->save();
 
-        $token = $user->createTokenWithLocation(
-            $validated['device_name'],
-            $validated['location'])->plainTextToken;
+        $token = $user->createToken($validated['device_name'])->plainTextToken;
 
         return response()->json(['token' => $token]);
     }
@@ -45,9 +43,7 @@ class UserController extends Controller
             ]);
         }
 
-        $token = $user->createTokenWithLocation(
-            $validated['device_name'],
-            $validated['location'])->plainTextToken;
+        $token = $user->createToken($validated['device_name'])->plainTextToken;
 
         return response()->json(['token' => $token]);
     }
